@@ -1,0 +1,284 @@
+{
+    "username": "braulio-madrid-19b372185",
+    "firstName": "Braulio",
+    "lastName": "Madrid",
+    "isOpenToWork": false,
+    "profilePicture": "https://media.licdn.com/dms/image/v2/D4E03AQFVi9hqve3_DQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723828392426?e=1730332800&v=beta&t=bCISVIIqELkBdOzNvuYJ1FjxzGcBU-BzW8TLNYYl0Cw",
+    "geo":{
+        "country": "Colombia",
+        "city": "El Pe\u00f1ol, Antioquia",
+        "full": "El Pe\u00f1ol, Antioquia, Colombia"
+    },
+    "multiLocale": {
+        "en_US": {
+            "summary": "<p>I am a <b>video game developer</b> and <b>Python programmer</b> with experience in <b>technical support for electoral processes and national censuses</b> (DANE, Sisben).<br><br>For over two years, I have honed my programming skills, focusing particularly on <b>data handling using Python and Django</b> as well as <b>video game development in Unity</b>.<br><br>My specialty is <b>graphical optimization</b> and <b>3D video game development</b>, aimed at mobile or low-resource devices, always maintaining a balance between visual quality and performance.<br><br>I am currently training as a <b>Backend developer</b> with the goal of becoming a <b>full stack programmer</b>.<br><br>Additionally, I share my knowledge and experience through a blog, where I explore technical topics and industry trends.</p>",
+            "headline": "Backend Developer Python | Creating Eficient and Scalable Solutions"
+        },
+        "es_ES": {
+            "summary": "<p>Soy <b>desarrollador de videojuegos</b> y <b>programador en Python</b> con experiencia en <b>soporte técnico para procesos electorales y censos nacionales</b> (DANE, Sisben).<br><br>Durante más de dos años, he perfeccionado mis habilidades en programación, con un enfoque particular en el <b>manejo de datos usando Python y Django</b>, así como en el <b>desarrollo de videojuegos en Unity</b>.<br><br>Mi especialidad es la <b>optimización gráfica</b> y el <b>desarrollo de videojuegos en 3D</b>, orientados a dispositivos móviles o de bajos recursos, manteniendo siempre un equilibrio entre calidad visual y rendimiento.<br><br>Actualmente, me estoy formando como <b>desarrollador Backend</b> con el objetivo de convertirme en un <b>programador full stack</b>.<br><br>Además, comparto mi conocimiento y experiencia a través de un blog, donde exploro temas técnicos y tendencias de la industria.</p>",
+            "headline": "Backend Developer Python | Creando soluciones eficientes y escalables"
+        }
+    },
+    "educations": [
+        {
+            "start": {
+                "year": 2001,
+                "month": 0,
+                "day": 0
+            },
+            "end": {
+                "year": 2005,
+                "month": 0,
+                "day": 0
+            },
+            "url": "https://www.linkedin.com/school/iupascualbravo/posts/?feedView=all",
+            "multiLocale":{
+                "en_US": {
+                    "fieldOfStudy": "Mechanical enginering Technology",
+                    "degree": "Automotive Mechanical Technologist",
+                    "grade": "Thermal and Electromagnetic Energy Investigator:",
+                    "schoolName": "Pascual Bravo University Institute",
+                    "description": "I was part of team dedicated to exploring the utilization of thermal energy in closed systems, such as furnaces, and researching the link system for the movement of objects using electromagnetism. My work contributed to the development of innovative solutions in the optimization of thermal processes and magnetic manipulation technologies.",
+                    "activities": "Investigative group of alternative energies"
+                },
+                "es_ES": {
+                    "fieldOfStudy": "Tecnología de la mec\u00e1nica",
+                    "degree": "Tecnólogo Automotriz",
+                    "grade": "Investigador en Energía Térmica y Electromagnetismo:",
+                    "schoolName": "Instituto Universitario Pascual Bravo",
+                    "description":"I was part of team dedicated to exploring the utilization of thermal energy in closed systems, such as furnaces, and researching the link system for the movement of objects using electromagnetism. My work contributed to the development of innovative solutions in the optimization of thermal processes and magnetic manipulation technologies.",
+                    "activities": "Investigative group of alternative energies"
+                }
+            }
+        }
+    ],
+    "position": [
+        {
+            "companyName": "Thomas Greg and Sons",
+            "companyUsername": "thomasgregandsons",
+            "companyURL": "https://www.linkedin.com/company/thomasgregandsons/",
+            "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQGXLaEYkJRBeg/company-logo_400_400/company-logo_400_400/0/1641228876498/thomasgregandsons_logo?e=1732752000&v=beta&t=x3rH68lOw3EQcUANVG8JaRKiwWbBn-yincMKNXuz8TE",
+            "companyIndustry": "Information Technology & Services",
+            "companyStaffCountRange": "5001 - 10000",
+            "location": "Medell\u00edn, Antioquia, Colombia",
+            "start": {
+                "year": 2021,
+                "month": 12,
+                "day": 0
+            },
+            "end": {
+                "year": 2023,
+                "month": 11,
+                "day": 0
+            },
+            "multiLocale":{
+                "en_US": {
+                    "title": "Technical Support",
+                    "description": "Responsible for the monitoring, installation, and setup of the scrutiny equipment in national and territorial elections <b>(National Youth Council, Congress 2022, Presidential, and Territorial Elections 2023)</b>. I provided technical support and managed the data transmission to the National Electoral Council (CNE), and in all my participations, <b>I encountered no issues with the transmissions as I prepared several action plans in advance.</b>"
+
+                },
+                "es_ES": {
+                    "title": "Soporte t\u00e9cnico",
+                    "description":"Responsable de la supervisión, instalación y configuración del equipo de escrutinio en elecciones nacionales y territoriales <b>(Consejo Nacional de Juventud, Congreso 2022, Presidenciales y Elecciones Territoriales 2023)</b>. Proporcioné soporte técnico y gestioné la transmisión de datos al Consejo Nacional Electoral (CNE), y en todas mis participaciones, <b>no tuve problemas con las transmisiones, ya que preparé varios planes de acción con antelación.</b>"
+                }
+            }
+        },
+        {
+            "companyName": "Darkcom.dev",
+            "companyUsername": "darkcomdev",
+            "companyURL": "#",
+            "companyLogo": "src/img/darkcomdev_logo.png",
+            "companyIndustry": "Information Technology & Services",
+            "companyStaffCountRange": "1 - 10",
+            "location": "Pe\u00f1ol, Antioquia, Colombia",
+            "start": {
+                "year": 2020,
+                "month": 1,
+                "day": 0
+            },
+            "end": {
+                "year": 2023,
+                "month": 1,
+                "day": 0
+            },
+            "multiLocale":{
+                "en_US": {
+                    "title": "Webmaster and Owner",
+                    "description":"I was responsible for producing <b>educational and advertising content, interface design, digital marketing, and SEO optimization</b> to enhance the website's visibility and impact. Although I didn't reach a large audience, the experience was highly enriching, allowing me to acquire valuable skills. Additionally, I had the opportunity to contribute to the careers of other professionals by helping them strengthen their personal brands."
+                },
+                "es_ES": {
+                    "title": "Webmaster y propietario",
+                    "description": "Fui responsable de producir <b>contenido educativo y publicitario, diseño de interfaces, marketing digital y optimización SEO</b> para mejorar la visibilidad e impacto del sitio web. Aunque no logré alcanzar una gran audiencia, la experiencia fue muy enriquecedora y me permitió adquirir habilidades valiosas. Además, tuve la oportunidad de contribuir a las carreras de otros profesionales ayudándoles a fortalecer sus marcas personales."
+                }
+            }
+        },
+        {
+            "companyName": "National Planning Depatrament DNP",
+            "companyUsername": "national-planning-department-dnp",
+            "companyURL": "https://www.linkedin.com/company/national-planning-department-dnp/",
+            "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQHR3FUDOFrxFw/company-logo_400_400/company-logo_400_400/0/1631342856254?e=1732752000&v=beta&t=y4geb78fjsJN0FxD7vsvOdvdHdeKxoxwBkhK_JAka3w",
+            "companyIndustry": "Government Administration",
+            "companyStaffCountRange": "501 - 1000",
+            "location": "Pe\u00f1ol, Antioquia, Colombia",
+            "start": {
+                "year": 2019,
+                "month": 5,
+                "day": 0
+            },
+            "end": {
+                "year": 2019,
+                "month": 12,
+                "day": 0
+            },
+            "multiLocale":{
+                "en_US": {
+                    "title": "Administrative Assistant",
+                    "description":"I attended and replaced the head of the department, updating the <b>Sisben Version 4</b> database through surveys in the neighborhoods of the municipality of Pe\u00f1ol, <b>contributing to the accuracy of national statistics and the identification of subsidy beneficiaries</b>."
+                },
+                "es_ES": {
+                    "title": "Auxiliar Administrativo",
+                    "description": "Asistí y reemplacé al jefe del departamento, actualizando la base de datos de <b>Sisben Versión 4</b> mediante encuestas en los barrios del municipio de Peñol, <b>contribuyendo a la precisión de las estadísticas nacionales y a la identificación de beneficiarios de subsidios</b>."
+                }
+            }
+        }
+    ],
+    "certifications": [
+        {
+            "name": "EF SET English Certificate 44/100 (B1 Intermediate)",
+            "start": {
+                "year": 2024,
+                "month": 8,
+                "day": 0
+            },
+            "end": {
+                "year": 0,
+                "month": 0,
+                "day": 0
+            },
+            "authority": "EF Standard English Test (EF SET) ",
+            "company": {
+                "name": "EF Standard English Test (EF SET) ",
+                "universalName": "efset",
+                "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQE0iRUqSJueUw/company-logo_200_200/company-logo_200_200/0/1631348364654?e=1732752000&v=beta&t=iwhMpL5H3yLFC8MdEdPhUTf_1fa-t3Qn_XCkrnMpSpU",
+                "staffCountRange": {},
+                "headquarter": {}
+            },
+            "timePeriod": {
+                "start": {
+                    "year": 0,
+                    "month": 0,
+                    "day": 0
+                },
+                "end": {
+                    "year": 0,
+                    "month": 0,
+                    "day": 0
+                }
+            }
+        },
+        {
+            "name": "Fundamentos esenciales de la programaci\u00f3n",
+            "start": {
+                "year": 2023,
+                "month": 11,
+                "day": 0
+            },
+            "end": {
+                "year": 0,
+                "month": 0,
+                "day": 0
+            },
+            "authority": "LinkedIn",
+            "company": {
+                "name": "LinkedIn",
+                "universalName": "linkedin",
+                "logo": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1732752000&v=beta&t=uMTin5iGq7FMMWQBdckrgTmRYxT_aljH8j1z3INF7MU",
+                "staffCountRange": {},
+                "headquarter": {}
+            },
+            "timePeriod": {
+                "start": {
+                    "year": 0,
+                    "month": 0,
+                    "day": 0
+                },
+                "end": {
+                    "year": 0,
+                    "month": 0,
+                    "day": 0
+                }
+            }
+        }
+    ],
+    "projects": [
+        {
+            "projectName": "Inversión óptima",
+            "projectCode": "https://github.com/Darkcom-Dev/inversion_optima",
+            "projectUrl": "https://github.com/Darkcom-Dev/inversion_optima",
+            "projectImage": "static/img/project_1.jpg",
+            "projectTechnologies": [{
+                "icon": "fa-python",
+                "name": "Python"
+            },
+            {
+                "icon": "fa-django",
+                "name": "Django"
+            },
+            {
+                "icon": "fa-postgresql",
+                "name": "PostgreSQL"
+            }
+            ],
+            "multiLocale": {
+                "en_US": {
+                    "description": "<p><b>A website that compares various collective investment funds in Colombia</b> and <b>provides descriptive statistics to enhance decision-making.</b><br><br>Since starting my journey as an investor, I have always suspected that <b>investment funds in Colombia might be misleading investors.</b><br><br></p>"
+                },
+                "es_ES": {
+                    "description": "<p><b>Un sitio web que compara varios fondos de inversión colectiva en Colombia</b> y <b>provee estadística descriptiva para mejorar la toma de decisiones.</b><br><br>Desde que inicié mi camino como inversor, siempre he tenido la sospecha de que <b>los fondos de inversión en Colombia podrían estar engañando a los inversionistas.</b><br><br></p>"
+                }
+            }
+        },
+        {
+            "projectName": "Metroidvania",
+            "projectCode": "https://github.com/Darkcom-Dev/metroidvania",
+            "projectUrl": "https://github.com/Darkcom-Dev/metroidvania",
+            "projectImage": "static/img/project_1.jpg",
+            "projectTechnologies": [{
+                "icon": "fa-godot",
+                "name": "Godot"
+            }
+            ],
+            "multiLocale": {
+                "en_US": {
+                    "description":"<p><b>Metroidvania</b> is a <b>2D exploration platformer game template</b> developed in <b>Godot Engine.</b><br><br>The project is still in development, but it <b>has great potential.</b> You can <b>easily edit and connect the game’s levels.</b> It already features a <b>complete options menu</b> and a <b>minimalist HUD.</b> However, you can <b>add addons</b> and <b>enhance the experience.</b><br><br></p>"
+                },
+                "es_ES": {
+                    "description": "<p><b>Metroidvania</b> es una <b>plantilla de juego de plataformas de exploración 2D</b> desarrollada en <b>Godot Engine.</b><br><br>El proyecto aún está en desarrollo, pero <b>tiene un gran potencial.</b> Puedes <b>editar fácilmente los escenarios del juego</b> y <b>conectarlos.</b> Ya cuenta con un <b>menú de opciones completo</b> y el <b>HUD es minimalista.</b> Sin embargo, puedes <b>añadir addons</b> y <b>mejorar la experiencia.</b><br><br></p>"
+                }
+            }
+        },
+        {
+            "projectName": "Texture operations",
+            "projectCode": "https://github.com/Darkcom-Dev/Texture-Ops",
+            "projectUrl": "https://github.com/Darkcom-Dev/Texture-Ops",
+            "projectImage": "static/img/project_1.jpg",
+            "projectTechnologies": [{
+                "icon": "fa-python",
+                "name": "Python"
+            },
+            {
+                "icon": "fa-python",
+                "name": "Numpy"
+            }        
+            ],
+            "multiLocale": {
+                "en_US": {
+                    "description": "<p><b>A utility application that simplifies texture manipulation.</b> Developed with <b>Numpy, Python, and PIL.</b><br><br>It is designed to work with <b>3D model textures,</b> allowing you to <b>mix and separate channels, pack multiple textures into a single image, create Perlin noise, cellular noise, and more.</b> It can also <b>generate normal maps from a grayscale image.</b><br><br></p>"
+                },
+                "es_ES": {
+                    "description": "<p><b>Una aplicación de utilidades que simplifica la manipulación de texturas.</b> Desarrollada con <b>Numpy, Python y PIL.</b><br><br>Está diseñada para trabajar con <b>texturas de modelos 3D,</b> permitiendo <b>mezclar y separar canales, empaquetar varias texturas en una sola imagen, crear ruido Perlin, ruido celular, etc.</b> También puede <b>generar mapas normales a partir de una imagen en escala de grises.</b><br><br></p>"
+                }
+            }
+        }
+    ]
+}

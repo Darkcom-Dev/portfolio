@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- incluir el css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="static/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <script src="static/js/load-data.js"></script>
+    <!--favicon-->
+    <link rel="icon" href="static/img/darkcom-logo.svg">
+    
     
     <title>Portafolio de Darkcom Dev</title>
 </head>
@@ -20,35 +18,36 @@
 
         <div class="gradient"></div>
         <div class="menu">
-            <a href="#Experiencia">Experiencia</a>
-            <a href="#Proyectos">Proyectos</a>
-            <a href="#Sobremi">Sobre mi</a>
-            <a href="#Contacto">Contacto</a>
-            <button id="dark-mode-toggle" class="btn">Oscuro</button>
+            <a href="#section_experience" id="menu_experience">Experiencia</a>
+            <a href="#section_projects" id ="menu_projects"><i class="fa fa-project"> Proyectos</i></a>
+            <a href="#section_about_me" id="menu_about_me"><i class="fa fa-person"> Sobre mi</i></a>
+            <a href="#section_contact" id="menu_contact"><i class="fa fa-mail"> Contacto</i></a>
+            <a id="dark-mode-toggle"><i class="fa fa-theme"  class="icon">.</i></a>
+            <a id="menu_language"><i class="fa fa-language"> Lenguaje</i></a>
+            
         </div>
         <script src="static/js/theme_toggle.js"></script>
         <div class="presentation">
             <div class="profile_info">
                 <div class="photo">
-                    <img src="static/img/darkcom.png" alt="Foto de perfil" id="profile_photo">
+                    <img src="static/img/Avatar.png" alt="Foto de perfil" id="profile_photo">
                 </div>
                 <div class="info">
-                    
                     <H1 id="profile_name">Hey, soy Darkcom</H1>
                     <h3 id="headline">Headline</h3>
                     <div id="location" style="display:flex;flex-direction:rows;">
-                        <img src="static/img/location-sign.svg" alt="Location-sign" style="width:32px;">
+                        <h2><i class="fa fa-map-marker"></i> : </h2>
                         <h4 id="geo">Geo</h4>
                     </div>
-                    <button class="btn" onclick="window.location.href='mailto:braulio.madrid@proton.me'"><i class="fa fa-envelope"></i> braulio.madrid@proton.me</button>
-                    <button class="btn" onclick="window.location.href='https://linkedin.com/in/braulio-madrid-3a9b6b1b5'"><i class="fa fa-linkedin"></i></button>
-                    <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev'"><i class="fa fa-github"></i></button>
-                    <button class="btn" onclick="window.location.href='#'"><i class="fa fa-file"></i></button>
+                    <button class="btn" onclick="window.location.href='mailto:braulio.madrid@proton.me'"><i class="fa fa-mail"> braulio.madrid@proton.me</i></button>
+                    <button class="btn" onclick="window.location.href='https://linkedin.com/in/braulio-madrid-3a9b6b1b5'"><i class="fa fa-linkedin">.</i></button>
+                    <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev'"><i class="fa fa-github">.</i></button>
+                    <button class="btn" onclick="window.location.href='#'"><i class="fa fa-file">.</i></button>
                 </div>
             </div>
             
             <div class="summary">
-                <h2 id="Sobremi">Sobre mi</h2>
+                <h2 id="section_about_me">Sobre mi</h2>
                 <p id="summary">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quo esse doloribus saepe facere sint illum sed dolor temporibus. Mollitia a neque minus debitis. Ex at vel quo eius explicabo.
                 </p>
@@ -56,81 +55,68 @@
 
             <div class="summary">
                 <hr>
-                <h2 id="Habilidades">Tecnologías</h2>
+                <h2 id="section_skills">Tecnologías</h2>
                 <div class="skill_icons">
-                    <span class="badge"><img class="icon" src="static/img/python.svg"> Python</span>
-                    <span class="badge"><img class="icon" src="static/img/django.svg"> Django</span>
-                    <span class="badge"><img class="icon" src="static/img/flask.svg"> Flask</span>
-                    <span class="badge"><img class="icon" src="static/img/javascript.svg"> Javascript</span>
-                    <span class="badge"><img class="icon" src="static/img/html5.svg"> HTML</span>
-                    <span class="badge"><img class="icon" src="static/img/css3.svg"> CSS</span>
-                    <span class="badge"><img class="icon" src="static/img/linux.svg"> Linux</span>
-                    <span class="badge"><img class="icon" src="static/img/git.svg"> Git</span>
-                    <span class="badge"><img class="icon" src="static/img/blender.svg"> Blender</span>
-                    <span class="badge"><img class="icon" src="static/img/godotengine.svg"> Godot</span>
-                    <span class="badge"><img class="icon" src="static/img/unity.svg"> Unity</span>
+                    <span class="badge"><i class="fa fa-python"> Python</i> </span>
+                    <span class="badge"><i class="fa fa-django"> Django</i> </span> 
+                    <span class="badge"><i class="fa fa-flask" > Flask</i></span>
+                    <span class="badge"><i class="fa fa-javascript"> Javascript</i></span>
+                    <span class="badge"><i class="fa fa-html5"> HTML</i></span>
+                    <span class="badge"><i class="fa fa-css3"> CSS </i></span>
+                    <span class="badge"><i class="fa fa-linux"> Linux </i></span>
+                    <span class="badge"><i class="fa fa-git"> Git </i></span>
+                    <span class="badge"><i class="fa fa-blender"> Blender</i></span>
+                    <span class="badge"><i class="fa fa-godot"> Godot</i></span>
+                    <span class="badge"><i class="fa fa-unity"> Unity</i></span>
+                    <span class="badge"><i class="fa fa-postgresql"> PostgreSQL</i></span>
                 </div>
             </div>
 
             <div class="summary">
-                <h2 id="Proyectos">Proyectos</h2>
+                <h2 id="section_projects">Proyectos</h2>
                 <div class="project">
-                    
                         <div class="project_links">
-                            <img class="project_image" src="static/img/project_1.jpg" alt="Inversión óptima">    
+                            <img class="project_image" id="project_1_image" src="static/img/project_1.jpg" alt="Inversión óptima">    
                             <div class="project_icons">
-                                <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/inversion_optima'">
-                                    <img class="icon" src="static/img/github.svg" alt="Github"> Code
-                                </button>
-                                <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/inversion_optima'">
-                                    <img class="icon" src="static/img/github.svg" alt="Github"> Code
-                                </button>
-                                <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/inversion_optima'">
-                                    <img class="icon" src="static/img/github.svg" alt="Github"> Code
-                                </button>    
+                                <a id="project_1_code" href='https://github.com/Darkcom-Dev/inversion_optima'"><i class="fa fa-github"> Code</i></a>
+                                <a id="project_1_demo" href='https://github.com/Darkcom-Dev/inversion_optima'"><i class="fa fa-link"> Demo</i></a>
                             </div>
-                            
                         </div>
                         <div class="project_info">
-                            <h2>Inversión óptima</h3>
-                            <p>A website that compares various investment funds in Colombia and provides statistics to support decision-making.
+                            <h2 id="project_1_title">Inversión óptima</h3>
+                            <p id="project_1_description">A website that compares various investment funds in Colombia and provides statistics to support decision-making.
                                 Desde que he comenzado en mi camino como inversor siempre he tenido la sospecha que los fondos de inversion
                                 en Colombia le miente a 
                             </p>
-                            <div class="project_icons">
-                                <img class="icon" src="static/img/django.svg" alt="django">
-                                <img class="icon" src="static/img/python.svg" alt="python">
-                                <img class="icon" src="static/img/postgresql.svg" alt="postgresql">
+                            <div class="project_icons" id="project_1_badges">
+                                <span class="badge"><i class="fa fa-python"> Python</i> </span>
+                                <span class="badge"><i class="fa fa-django"> Django</i> </span> 
+                                <span class="badge"><i class="fa fa-postgresql"> PostgreSQL</i> </span> 
                             </div>
-                            
                         </div>
                 </div>
 
                 <div class="project">
                     <div class="project_links">
-                        <img class="project_image" src="static/img/project_1.jpg" alt="Metroidvania">
+                        <img class="project_image" id="project_2_image" src="static/img/project_1.jpg" alt="Metroidvania">
                         <div class="project_icons">
-                            <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/Metroidvania'">
-                                <img class="icon" src="static/img/github.svg" alt="Github"> Code
-                            </button>
-                            <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/Metroidvania'">
-                                <img class="icon" src="static/img/github.svg" alt="Github"> Code
-                            </button>
-                            <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/Metroidvania'">
-                                <img class="icon" src="static/img/github.svg" alt="Github"> Code
-                            </button>
+                            <a id="project_2_code" href='https://github.com/Darkcom-Dev/Metroidvania'">
+                                <i class="fa fa-github"> Code</i>
+                            </a>
+                            <a id="project_2_demo" href='https://github.com/Darkcom-Dev/Metroidvania'">
+                                <i class="fa fa-link"> Demo</i>
+                            </a>
                         </div>
-                        
                     </div>
                     <div class="project_info">
-                        <h2>Metroidvania</h3>
-                        <p>Metroidvania is a 2D platform game developed in Godot Engine. It features a Template.
+                        <h2 id="project_2_title">Metroidvania</h3>
+                        <p id="project_2_description">Metroidvania is a 2D platform game developed in Godot Engine. It features a Template.
                             el proyecto está aun en desarrollo pero tiene gran potencial, puedes editar con facilidad 
                             los escenarios del juego y conectarlos, ya tiene un menú dde opciones completo y el HUD
                             es minimalista, pero puedes añadir addons y mejorar la experiencia.
                         </p>
-                        <div class="project_icons">
-                            <img class="icon" src="static/img/godotengine.svg" alt="godot">
+                        <div class="project_icons" id="project_2_badges">
+                            <span class="badge"><i class="fa fa-godot"> Godot</i> </span>
                         </div>
                         
                     </div>
@@ -138,23 +124,23 @@
                 
                 <div class="project">
                     <div class="project_links">
-                        <img class="project_image" src="static/img/project_1.jpg" alt="Texture Operations">
+                        <img class="project_image" id="project_3_image" src="static/img/project_1.jpg" alt="Texture Operations">
                         <div class="project_icons">
-                            <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/Texture-Ops'"><img class="icon" src="static/img/github.svg" alt="Github"> Code</button>
-                            <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/Texture-Ops'"><img class="icon" src="static/img/github.svg" alt="Github"> Code</button>
-                            <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev/Texture-Ops'"><img class="icon" src="static/img/github.svg" alt="Github"> Code</button>
+                            <a id="project_3_code" href='https://github.com/Darkcom-Dev/Texture-Ops'"><i class="fa fa-github"> Code</i></a>
+                            <a id="project_3_demo" href='https://github.com/Darkcom-Dev/Texture-Ops'"><i class="fa fa-link"> Demo</i></a>
                         </div>
                     </div>
                     <div class="project_info">
-                        <h3>Texture Operations</h3>
-                        <p>A utility application that simplifies texture manipulation. Using Numpy and PIL.
+                        <h3 id="project_3_title">Texture Operations</h3>
+                        <p id="project_3_description">A utility application that simplifies texture manipulation. Using Numpy and PIL.
                             está hecho para trabajar con texturas de modelos 3d, mezclar canales, separarlos, 
                             empaquetar varias texturas en una sola imagen, crea ruido perlin, ruido celular, etc.
                             Puede crear mapas normales a partir de una imágen en escala de grises.
                         </p>
-                        <div class="project_icons">
-                            <img class="icon" src="static/img/python.svg" alt="Python">
-                            <img class="icon" src="static/img/numpy.svg" alt="Numpy">
+                        <div class="project_icons" id="project_3_badges">
+                            <span class="badge"><i class="fa fa-python"> Python</i> </span>
+                            <span class="badge"><i class="fa fa-python"> Numpy</i> </span>
+                            
                         </div>
                     </div>
                 </div>
@@ -162,7 +148,7 @@
             </div>
 
             <div class="summary">
-                <h2 id="Experiencia">Experiencia</h2>
+                <h2 id="section_experience">Experiencia</h2>
 
                 <div class="company">
                     <div class="company_header">
@@ -203,7 +189,7 @@
             </div>
             
             <div class="extras">
-                <h2 id="Sobremi">Extras</h2>
+                <h2 id="section_extras">Extras</h2>
                 <div class="about_content">
                     <img class="project_image" src="static/img/project_1.jpg" alt="Photo">
                     <p>I started programming in 2010 by <b>developing video games in Unity</b>; I built up a large <u>"graveyard" of projects</u> 
@@ -216,18 +202,18 @@
             </div>
             
             <div class="contact">
-                <h2 id="Contacto">Contacto</h2>
+                <h2 id="section_contact"><i class="fa fa-person">  Contacto</i></h2>
                 <h3>Braulio Madrid</h3>
                 <div class="contact_buttons">
-                    <button class="btn" onclick="window.location.href='mailto:braulio.madrid@proton.me'"><i class="fa fa-envelope"></i> braulio.madrid@proton.me</button>
-                    <button class="btn" onclick="window.location.href='https://linkedin.com/in/braulio-madrid-3a9b6b1b5'"><i class="fa fa-linkedin"></i></button>
-                    <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev'"><i class="fa fa-github"></i></button>
+                    <button class="btn" onclick="window.location.href='mailto:braulio.madrid@proton.me'"><i class="fa fa-mail"> braulio.madrid@proton.me</i></button>
+                    <button class="btn" onclick="window.location.href='https://linkedin.com/in/braulio-madrid-3a9b6b1b5'"><i class="fa fa-linkedin">.</i></button>
+                    <button class="btn" onclick="window.location.href='https://github.com/Darkcom-Dev'"><i class="fa fa-github">.</i></button>
                 </div>
             </div>
         </div>
         
         
     </div>
-    
+    <script src="static/js/load-data.js"></script>
 </body>
 </html>

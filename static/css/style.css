@@ -25,14 +25,119 @@ html {
     scroll-behavior: smooth;
 }
 
+/*@import url("https://www.nerdfonts.com/assets/css/webfont.css");*/
+
+/* Importa la fuente con @font-face */
+@font-face {
+    font-family: 'CaskaydiaCove';
+    src: url('../fonts/CaskaydiaCoveNF-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
+    font-family: "CaskaydiaCove", sans-serif;
     background-color: light-dark(var(--background-dark-color), var(--background-light-color));
     color: light-dark(var(--background-light-color), var(--background-dark-color));
     transition: all 1s ease;
 }
 
+.fa {
+    font-family: "CaskaydiaCove", sans-serif;
+    font-style: normal;
+}
+
+.fa-map-marker::before {
+    content: "\f034e";
+}
+
+.fa-theme::before {
+    content: "\f050e";
+}
+
+.fa-mail::before {
+    content: "\f0e0";
+}
+
+.fa-linkedin::before {
+    content: "\f0e1";
+}
+
+.fa-github::before {
+    content: "\f09b";
+}
+
+.fa-file::before {
+    content: "\f15b";
+}
+
+.fa-python::before {
+    content: "\e73c";
+}
+
+.fa-django::before {
+    content: "\e71d";
+}
+
+.fa-flask::before {
+    content: "\f0c3";
+}
+
+.fa-javascript::before {
+    content: "\f031e";
+}
+
+.fa-html5::before {
+    content: "\e736";
+}
+
+.fa-css3::before {
+    content: "\e749";
+}
+
+.fa-linux::before {
+    content: "\ebc6";
+}
+
+.fa-git::before{
+    content: "\f02a2";
+}
+
+.fa-blender::before {
+    content: "\f00ab";
+}
+
+.fa-godot::before {
+    content: "\e65f";
+}
+
+.fa-unity::before {
+    content: "\f06af";
+}
+
+.fa-postgresql::before {
+    content: "\e76e";
+}
+
+.fa-person::before {
+    content: "\f4ff";
+}
+
+.fa-project::before {
+    content: "\eb30";
+}
+
+.fa-link::before {
+    content: "\f0c1";
+}
+
+.fa-language::before {
+    content: "\f1ab";
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Play", sans-serif;
+    font-family: 'CaskaydiaCove', sans-serif;
     font-weight: 700;
     font-style: normal;
     color: light-dark(var(--title-light-color), var(--title-dark-color));
@@ -41,14 +146,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: large;
 }
 
 a {
-    font-family: "Play", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: light-dark(var(--background-light-color), var(--background-dark-color));
@@ -76,9 +179,10 @@ hr {
 }
 
 .btn{
-    font-family: "Play", sans-serif;
+    font-family: "CaskaydiaCove", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: larger;
     color: var(--link-color-secondary);
     background-color: light-dark(var(--link-dark-color), var(--link-light-color));
     border-radius: 10px;
@@ -96,13 +200,14 @@ hr {
 }
 
 .badge {
-    font-family: "Play", sans-serif;
+    /*font-family: "Play", sans-serif;*/
     background-color: light-dark(var(--link-dark-color), var(--link-light-color));
     color: light-dark(var(--background-light-color), var(--background-dark-color));
     padding: 4px 8px;
     vertical-align: middle;
     text-align: center;
     border-radius: 5px;
+    font-size: larger;
   }
 
 .gradient {
@@ -111,11 +216,14 @@ hr {
     background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 35%;
+    /*transform: translate(50%, 50%);*/
     z-index: -1;
     filter: blur(100px);
+
+    /* Añadir la animación con la duración (velocidad) deseada */
+    animation: rotate 5s linear infinite; /* 5 segundos para una rotación completa */
 }
 
 @keyframes rotate {
@@ -133,18 +241,43 @@ hr {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*margin: 0;*/ /* Elimina el margen para evitar desalineaciones */
+        padding: 20px;
+
+        width: 120px;
+        height : 300px;
+        right : -100px;
+        top : 20px;
+    }
 }
 
 @media (min-width : 768px) {
-    .profile_info {
+    /*.profile_info {
         display: grid;
         grid-template-columns: 20% 1fr;
+    }*/
+    
+    .profile_info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-items: center;
     }
 
     .about_content {
         display: grid;
         grid-template-columns: 360px 1fr;
+    }
+    .menu{
+        width: 600px;
+        top: 20px; /* Ajusta la distancia desde la parte superior de la ventana */
+        left: 50%; /* Centra el menú horizontalmente */
     }
 }
 
@@ -170,8 +303,6 @@ hr {
     border-width: 2px;
     border-style: solid;
     position: fixed; /* Posiciona el menú de forma fija */
-    top: 20px; /* Ajusta la distancia desde la parte superior de la ventana */
-    left: 50%; /* Centra el menú horizontalmente */
     transform: translateX(-50%); /* Centra el menú con precisión en la pantalla */
     z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
 }
@@ -190,8 +321,10 @@ hr {
 }
 
 .profile_info {
-    display: grid;
-    grid-template-rows: 160px 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -323,8 +456,8 @@ hr {
 
 #profile_photo {
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
+    width: 30%;
+    /*height: 180px;*/
  }
 
  /*Experimental*/
